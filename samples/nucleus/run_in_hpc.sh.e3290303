@@ -1,0 +1,7 @@
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/share/lab_tan/Kyu/work/codes/mask_rcnn/Mask_RCNN/samples/nucleus/nucleus.py", line 56, in <module>
+    from mrcnn import visualize
+  File "/share/lab_tan/Kyu/work/codes/mask_rcnn/Mask_RCNN/mrcnn/visualize.py", line 21, in <module>
+    import IPython.display
+ModuleNotFoundError: No module named 'IPython'

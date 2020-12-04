@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/share/lab_tan/Kyu/work/codes/mask_rcnn/Mask_RCNN/samples/nucleus/nucleus.py", line 53, in <module>
+    from mrcnn.config import Config
+ModuleNotFoundError: No module named 'mrcnn'

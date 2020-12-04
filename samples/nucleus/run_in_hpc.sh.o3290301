@@ -1,0 +1,56 @@
+/bin/bash
+
+     active environment : base
+    active env location : /share/apps/anaconda3
+            shell level : 1
+       user config file : /home/4471416/.condarc
+ populated config files : /home/4471416/.condarc
+          conda version : 4.7.12
+    conda-build version : not installed
+         python version : 3.6.5.final.0
+       virtual packages : 
+       base environment : /share/apps/anaconda3  (read only)
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /share/apps/anaconda3/pkgs
+                          /home/4471416/.conda/pkgs
+       envs directories : /home/4471416/.conda/envs
+                          /share/apps/anaconda3/envs
+               platform : linux-64
+             user-agent : conda/4.7.12 requests/2.22.0 CPython/3.6.5 Linux/2.6.32-754.15.3.el6.x86_64 centos/6.10 glibc/2.12
+                UID:GID : 58201:5000
+             netrc file : None
+           offline mode : False
+
+
+     active environment : tf_keras
+    active env location : /home/4471416/.conda/envs/tf_keras
+            shell level : 2
+       user config file : /home/4471416/.condarc
+ populated config files : /home/4471416/.condarc
+          conda version : 4.7.12
+    conda-build version : not installed
+         python version : 3.6.5.final.0
+       virtual packages : 
+       base environment : /share/apps/anaconda3  (read only)
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /share/apps/anaconda3/pkgs
+                          /home/4471416/.conda/pkgs
+       envs directories : /home/4471416/.conda/envs
+                          /share/apps/anaconda3/envs
+               platform : linux-64
+             user-agent : conda/4.7.12 requests/2.22.0 CPython/3.6.5 Linux/2.6.32-754.15.3.el6.x86_64 centos/6.10 glibc/2.12
+                UID:GID : 58201:5000
+             netrc file : None
+           offline mode : False
+
+/home/4471416/.conda/envs/tf_keras/bin/python

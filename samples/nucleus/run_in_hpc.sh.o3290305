@@ -1,0 +1,113 @@
+/bin/bash
+
+     active environment : base
+    active env location : /share/apps/anaconda3
+            shell level : 1
+       user config file : /home/4471416/.condarc
+ populated config files : /home/4471416/.condarc
+          conda version : 4.7.12
+    conda-build version : not installed
+         python version : 3.6.5.final.0
+       virtual packages : 
+       base environment : /share/apps/anaconda3  (read only)
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /share/apps/anaconda3/pkgs
+                          /home/4471416/.conda/pkgs
+       envs directories : /home/4471416/.conda/envs
+                          /share/apps/anaconda3/envs
+               platform : linux-64
+             user-agent : conda/4.7.12 requests/2.22.0 CPython/3.6.5 Linux/2.6.32-754.15.3.el6.x86_64 centos/6.10 glibc/2.12
+                UID:GID : 58201:5000
+             netrc file : None
+           offline mode : False
+
+
+     active environment : tf_keras
+    active env location : /home/4471416/.conda/envs/tf_keras
+            shell level : 2
+       user config file : /home/4471416/.condarc
+ populated config files : /home/4471416/.condarc
+          conda version : 4.7.12
+    conda-build version : not installed
+         python version : 3.6.5.final.0
+       virtual packages : 
+       base environment : /share/apps/anaconda3  (read only)
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /share/apps/anaconda3/pkgs
+                          /home/4471416/.conda/pkgs
+       envs directories : /home/4471416/.conda/envs
+                          /share/apps/anaconda3/envs
+               platform : linux-64
+             user-agent : conda/4.7.12 requests/2.22.0 CPython/3.6.5 Linux/2.6.32-754.15.3.el6.x86_64 centos/6.10 glibc/2.12
+                UID:GID : 58201:5000
+             netrc file : None
+           offline mode : False
+
+/home/4471416/.conda/envs/tf_keras/bin/python
+Weights:  /share/lab_tan/Kyu/work/data/pretrained_weights/mask_rcnn_coco.h5
+Dataset:  /share/lab_tan/Kyu/work/data/cell_segmentation_datasets/data-science-bowl-2018
+Subset:  stage1_train
+Logs:  /share/lab_tan/Kyu/work/codes/mask_rcnn/Mask_RCNN/logs
+
+Configurations:
+BACKBONE                       resnet50
+BACKBONE_STRIDES               [4, 8, 16, 32, 64]
+BATCH_SIZE                     6
+BBOX_STD_DEV                   [0.1 0.1 0.2 0.2]
+COMPUTE_BACKBONE_SHAPE         None
+DETECTION_MAX_INSTANCES        400
+DETECTION_MIN_CONFIDENCE       0
+DETECTION_NMS_THRESHOLD        0.3
+FPN_CLASSIF_FC_LAYERS_SIZE     1024
+GPU_COUNT                      1
+GRADIENT_CLIP_NORM             5.0
+IMAGES_PER_GPU                 6
+IMAGE_CHANNEL_COUNT            3
+IMAGE_MAX_DIM                  512
+IMAGE_META_SIZE                14
+IMAGE_MIN_DIM                  512
+IMAGE_MIN_SCALE                2.0
+IMAGE_RESIZE_MODE              crop
+IMAGE_SHAPE                    [512 512   3]
+LEARNING_MOMENTUM              0.9
+LEARNING_RATE                  0.001
+LOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}
+MASK_POOL_SIZE                 14
+MASK_SHAPE                     [28, 28]
+MAX_GT_INSTANCES               200
+MEAN_PIXEL                     [43.53 39.56 48.22]
+MINI_MASK_SHAPE                (56, 56)
+NAME                           nucleus
+NUM_CLASSES                    2
+POOL_SIZE                      7
+POST_NMS_ROIS_INFERENCE        2000
+POST_NMS_ROIS_TRAINING         1000
+PRE_NMS_LIMIT                  6000
+ROI_POSITIVE_RATIO             0.33
+RPN_ANCHOR_RATIOS              [0.5, 1, 2]
+RPN_ANCHOR_SCALES              (8, 16, 32, 64, 128)
+RPN_ANCHOR_STRIDE              1
+RPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]
+RPN_NMS_THRESHOLD              0.9
+RPN_TRAIN_ANCHORS_PER_IMAGE    64
+STEPS_PER_EPOCH                105
+TOP_DOWN_PYRAMID_SIZE          256
+TRAIN_BN                       False
+TRAIN_ROIS_PER_IMAGE           128
+USE_MINI_MASK                  True
+USE_RPN_ROIS                   True
+VALIDATION_STEPS               4
+WEIGHT_DECAY                   0.0001
+
+
+Loading weights  /share/lab_tan/Kyu/work/data/pretrained_weights/mask_rcnn_coco.h5
