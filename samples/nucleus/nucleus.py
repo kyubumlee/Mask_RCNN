@@ -45,7 +45,8 @@ from imgaug import augmenters as iaa
 
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../../")
-WEIGHT_DIR = "M:\\lab\\Lab_Tan\\Kyu\\work\\data\\pretrained_weights"
+#WEIGHT_DIR = "M:\\lab\\Lab_Tan\\Kyu\\work\\data\\pretrained_weights"
+WEIGHT_DIR = "/share/lab_tan/Kyu/work/data/pretrained_weights"
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
